@@ -1,30 +1,68 @@
-1. Project Brief
-Project: GreenPath - AI-Powered Sustainable Mobility Rewards Platform
-Objective: Create a complete, functional MVP for a geekathon competition that incentivizes sustainable transportation choices through token rewards. The application must be fully operational within 48 hours.
-Core Requirements:
+# GreenPath Project Brief
 
-Multi-Component System: React Native mobile app, Node.js/Express backend API, Ethereum/Polygon smart contract, Google Maps API, Real-time location tracking.
+**Project:** GreenPath - AI-Powered Sustainable Mobility Rewards Platform  
+**Objective:** Create a complete, functional MVP for a geekathon competition that incentivizes sustainable transportation choices through token rewards. The application must be fully operational within 48 hours.
 
-Key User Journey: User enters start/destination, system calculates routes with carbon impact scores, user selects sustainable route, app launches navigation app, background tracking validates route completion, automated token rewards.
+---
 
-Technical Stack:
+## Core Requirements
 
-Frontend: React Native with react-native-maps, react-native-geolocation-service.
+**Multi-Component System**
+- React Native mobile app
+- Node.js/Express backend API
+- Ethereum/Polygon smart contract
+- Google Maps API
+- Real-time location tracking
 
-Backend: Node.js, Express, Google Maps APIs.
+**Key User Journey**
+1. User enters start/destination.  
+2. System calculates routes with carbon impact scores.  
+3. User selects sustainable route.  
+4. App launches navigation app.  
+5. Background tracking validates route completion.  
+6. Automated token rewards.
 
-Blockchain: Solidity smart contracts on Polygon Mumbai testnet.
+**Technical Stack**
+- **Frontend:** React Native with `react-native-maps`, `react-native-geolocation-service`
+- **Backend:** Node.js, Express, Google Maps APIs
+- **Blockchain:** Solidity smart contracts on Polygon Mumbai testnet
+- **Database:** Simple JSON/SQLite for demo purposes
 
-Database: Simple JSON/SQLite for demo purposes.
+---
 
-Specific Implementation Tasks:
+## Specific Implementation Tasks
 
-Backend: Create endpoints for route calculation and token minting, implement carbon algorithm, integrate Google Maps, set up ethers.js.
+### Backend
+- Create endpoints for route calculation and token minting
+- Implement carbon algorithm
+- Integrate Google Maps
+- Set up ethers.js
 
-Frontend: Create navigation stack, implement address input, add map visualization, build deep linking, implement background tracking, create wallet display.
+### Frontend
+- Create navigation stack
+- Implement address input
+- Add map visualization
+- Build deep linking
+- Implement background tracking
+- Create wallet display
 
-Blockchain: Deploy ERC-20 contract, implement minting function.
+### Blockchain
+- Deploy ERC-20 contract
+- Implement minting function
 
-Deliverables: Fully functional React Native app, live backend API, deployed smart contract, complete user flow, demo data.
+---
 
-Success Criteria: User can plan a route, app launches navigation, system tracks and validates trips, tokens are minted automatically.
+## Deliverables
+- Fully functional React Native app  
+- Live backend API  
+- Deployed smart contract  
+- Complete user flow  
+- Demo data  
+
+---
+
+## Success Criteria
+- User can plan a route  
+- App launches navigation  
+- System tracks and validates trips  
+- Tokens are minted automatically
